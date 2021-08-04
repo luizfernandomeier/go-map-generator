@@ -1,0 +1,13 @@
+apt-get install build-essential
+
+echo $PATH
+export PATH="/usr/local/go/bin:$PATH"
+
+go mod init https://github.com/luizfernandomeier/go-map-generator
+
+------------------------------------
+
+go get github.com/veandco/go-sdl2
+
+install sdl c libraries
+apt-get install libsdl2-dev
